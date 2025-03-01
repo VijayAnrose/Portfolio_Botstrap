@@ -1,0 +1,68 @@
+/* Custom Styles */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+/* Hero Section Styling */
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.navbar-custom {
+    background-color: #736fa5 !important; /* Change to any color */
+}
+
+.hero span {
+    color: #0a0a0a;
+}
+
+/* Centering the Projects Section */
+#projects .row {
+    justify-content: center; /* Centers the project cards */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(48, 114, 236, 0.1);
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(7, 7, 7, 0.2);
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    background: #478bf0;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Contact Form Styling */
+#contact .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #00c6ff;
+    border-color: #00c6ff;
+}
+
+.btn-primary:hover {
+    background-color: #10fa33;
+    border-color: #009acd;
+}
